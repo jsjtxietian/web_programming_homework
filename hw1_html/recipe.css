@@ -1,0 +1,38 @@
+h1,h2{
+    color: #A4A400;
+    background-color: #F0F0F0;
+    font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration:underline;
+}
+
+h1{
+    font-size: 22pt;
+    font-weight: bold;
+    text-align:center;
+}
+
+h2{
+    font-size: 18pt;
+    font-weight: normal;
+}
+
+body{
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 11pt;
+    color: #404040;
+}
+
+abbr{
+    text-decoration: underline;
+    border-bottom: 1px dotted black;    
+}
+
+blockquote{
+    background-color: #FFFFA8;
+    font-style: italic;
+}
+
+a{
+    color : #A4A400;
+}

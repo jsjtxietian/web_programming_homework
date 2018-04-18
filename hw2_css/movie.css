@@ -1,0 +1,154 @@
+/* 1552629 谢天 作业2 */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url("http://sse.tongji.edu.cn/liangshuang/wp/images/moviebg.png"); 
+    font-size: 10pt;
+    margin:0;
+    padding: 0;
+}
+
+#head{
+    font-size: 24px;
+    font-weight:bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 3px 3px #999999;
+    text-align: center;
+}
+
+#nav{
+    background-image: url("http://sse.tongji.edu.cn/liangshuang/wp/images/rancidbannerbg.png");
+    height: 50px;
+}
+
+#banner{
+    text-align: center;
+}
+
+#mainbody{
+    margin : 0 auto;
+    max-width:800px;    
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px gray;
+    overflow: hidden;
+}
+
+#mainleft{
+    float : left;
+    width : 550px;
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+    background-color: #EEEEEE;    
+}
+
+
+#navRotten{
+    background-image: url("http://sse.tongji.edu.cn/liangshuang/wp/images/rottenlargebg.png");
+    height: 83px;
+    font-size : 48pt;
+    color: red ;
+    font-weight: bold;
+    text-align: left;
+}
+
+#navRotten img{
+    height : 83px;
+    vertical-align: text-bottom;
+}
+
+#reviewSet{
+    overflow: hidden;
+}
+
+#reviewLeft{
+    float : left;
+    margin-left: 2%;
+    width: 47%;
+}
+
+#reviewRight{
+    float: right;
+    width: 47%;
+    margin-right: 2%;
+}
+
+.reviewContent{
+    font-size: 10pt;
+    background-color: #FFFFFF;
+    border-color: #CCCCCC;
+    border: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 8px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.reviewContent img {
+    float : left;
+    margin-right: 5px;
+}
+
+.reviewPerson{
+    text-align: left;
+    margin-bottom: 20pt;
+}
+
+.reviewPerson img{
+    float : left;
+    margin-left: 5px;
+}
+
+.publication{
+    font-style: italic;
+
+}
+
+#mainright{
+    background-color: #A2B964;
+    float :right;
+    width: 250px;
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+    /* overflow: hidden; */
+}
+
+#mainup{
+    overflow: hidden;       
+}
+
+dl{
+    text-align: left;
+    margin-left: 10pt;
+    margin-right: 10pt;
+}
+
+dt{
+    font-weight: bold;
+}
+
+dd{
+    margin-bottom: 10pt;
+}
+
+#mainbottom{
+   text-align: center;
+   background-color:  #A2B964;
+   clear: right;
+   width : 100%;
+   margin: 0px;
+   padding: 5px;
+}
+
+
+#w3c{
+    float: right;
+}
+
+#urlList{
+    list-style-type: none;
+    margin : 0;
+    padding: 0;
+}
