@@ -1,0 +1,70 @@
+/* 1552629 xietian hw3 */
+
+h1{
+    text-align: center;
+}
+
+body{
+    background-color: #EAF6F6;
+    font-size: 12pt;
+    font-family: serif;
+}
+
+fieldset{
+    vertical-align: bottom;
+    margin: auto;
+    border: none;
+    display: inline-block;
+}
+
+button{
+    background-color: white;
+    border:solid gray 1px;
+    width: 70px;
+}
+
+button:disabled{
+    background-color: lightgray;
+}
+
+legend{
+    font-weight: bold;
+    text-align: left;
+    border-bottom:solid 1px #8EBEBE;
+    /*border-bottom-width: thick;*/
+    padding: 2px;
+    width: 100%;
+}
+
+textarea{
+    border:1px solid gray ;
+    background-color: #FFFFFF;
+}
+
+#center{
+    width: 80%;
+    height: 100px;
+    margin:0 auto;
+    text-align: center;
+    font-size: 36pt;
+    font-weight: bold;
+    font-family: monospace;
+    line-height: 100px;
+    border: 2px solid  #8EBEBE;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+#control{
+    text-align: center;
+    clear: both;
+    width: 80%;
+    margin: auto;
+}
+
+#buttom{
+    text-align: center;
+    clear: both;
+    margin: auto;
+}
+

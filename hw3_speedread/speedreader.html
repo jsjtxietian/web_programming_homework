@@ -1,0 +1,62 @@
+<!-- 1552629 xietian hw3 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Pimp My Text!</title>
+    <meta charset="utf-8"/>
+    <link href="speedreader.css" type="text/css" rel="stylesheet" />
+    <script src="speedreader.js"></script>
+</head>
+
+<body>
+    <h1>SpeedReader</h1>
+
+    <div id="center">
+    </div>
+
+    <div id="control">
+        <fieldset>
+            <legend>Play Controls:</legend>
+            <button id="start"> Start</button>
+            <button id="stop" disabled="disabled"> Stop </button>
+        </fieldset>
+
+        <fieldset>
+            <legend>Speed:</legend>
+            <select id="speedSet">
+                <option value="300">200 wpm</option>
+                <option value="200">300 wpm</option>
+                <option value="171" selected="selected">350 wpm</option>
+                <option value="150">400 wpm</option>
+                <option value="133">450 wpm</option>
+                <option value="120">500 wpm</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Size:</legend>
+            <label>
+                <input type="radio" name="fontSize" value="36pt" checked="checked"> Medium
+            </label>
+            <label>
+                <input type="radio" name="fontSize" value="48pt" > Big
+            </label>
+            <label>
+                <input type="radio" name="fontSize" value="60pt"> Bigger
+            </label>
+        </fieldset>
+    </div>
+
+    <div id="buttom">
+        <fieldset>
+            <legend>Input Text</legend>
+            <textarea id="input" cols="80" rows="10"></textarea>
+        </fieldset>
+    </div>
+
+
+</body>
+
+</html>
