@@ -1,0 +1,43 @@
+html{
+    text-align: center;
+    font-family: cursive;
+    font-size: 14pt;
+}
+
+.puzzleArea{
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.emptyTile{
+    height: 100px;
+    width: 100px;
+    float: left;
+    position: relative;
+}
+
+.tiles{
+    cursor: default;
+    font-size: 40pt;
+    border-width: 5px;
+    height: 90px;
+    width: 90px;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    line-height: 90px;
+    color: black;
+    display:block;
+    float: left;
+    background: url(background.jpg);
+}
+
+.tilesHover{
+    color: red;
+    border-color: red;
+    cursor: pointer;
+}
+
+
+
