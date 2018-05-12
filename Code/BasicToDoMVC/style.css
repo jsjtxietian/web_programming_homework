@@ -1,0 +1,31 @@
+.list-item {
+    padding: 10px;
+}
+  
+.list-item:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.list-item.completed {}
+
+.list-item .content {
+  display: inline-block;
+  min-width: 200px;
+}
+
+.list-item.completed .content {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.list-item .delete {
+}
+
+#todo {
+  width: 300px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 30px;
+  color: #555;
+}

@@ -1,0 +1,37 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\jsjtx\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install mocha
+
+PATH: 
+  D:\Softwares\cmder\bin;D:\Softwares\cmder\vendor\conemu-maximus5\ConEmu\Scripts;D:\Softwares\cmder\vendor\conemu-maximus5;D:\Softwares\cmder\vendor\conemu-maximus5\ConEmu;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\nodejs\;C:\TDM-GCC-64\bin;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\LLVM\bin;C:\Users\jsjtx\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\jsjtx\AppData\Local\Programs\Python\Python36-32\;C:\Users\jsjtx\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft VS Code\bin;D:\Softwares\cmder;C:\Program Files\Racket;C:\Users\jsjtx\AppData\Roaming\npm;C:\Program Files (x86)\Chez Scheme Version 9.4.1\bin\i3nt;C:\Program Files\Bandizip\;C:\TDM-GCC-64\bin;C:\Users\jsjtx\Anaconda3\Scripts;;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\share\vim\vim74;D:\Softwares\cmder\
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.7.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "startWith",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: `install` has been replaced with `add` to add new dependencies. Run "yarn add mocha" instead.
+      at new MessageError (C:\Users\jsjtx\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:186:110)
+      at Object.<anonymous> (C:\Users\jsjtx\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:21987:13)
+      at Generator.next (<anonymous>)
+      at step (C:\Users\jsjtx\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:98:30)
+      at C:\Users\jsjtx\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:109:13
+      at <anonymous>
